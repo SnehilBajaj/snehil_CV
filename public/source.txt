@@ -1,0 +1,248 @@
+================================================================================
+                        PORTFOLIO / CV CONFIGURATION FILE
+================================================================================
+This file controls ALL content and styling of your portfolio website.
+Edit the values after the tags, then save and refresh the page.
+================================================================================
+
+[SECTION: THEME SETTINGS]
+--------------------------------------------------------------------------------
+
+[THEME: modern]
+# Options: modern, minimal, dark
+
+[COLOR_PRIMARY: #0f172a]
+# Primary color - used for headers, buttons, and accents
+
+[COLOR_SECONDARY: #3b82f6]
+# Secondary color - used for highlights and hover states
+
+[COLOR_ACCENT: #06b6d4]
+# Accent color - used for special highlights
+
+[COLOR_BACKGROUND: #f8fafc]
+# Background color of the page
+
+[COLOR_TEXT: #1e293b]
+# Main text color
+
+[COLOR_TEXT_MUTED: #64748b]
+# Muted text color for descriptions
+
+[FONT_HEADING: Inter]
+# Font for headings - Options: Inter, Poppins, Playfair, Roboto, Montserrat
+
+[FONT_BODY: Inter]
+# Font for body text - Options: Inter, Poppins, Playfair, Roboto, Montserrat
+
+[END_SECTION]
+
+[SECTION: PERSONAL INFO]
+--------------------------------------------------------------------------------
+
+[NAME: Snehil Bajaj]
+# Your full name
+
+[TITLE: 2D/3D Animator & Visual Designer]
+# Your professional title
+
+[TAGLINE: Building elegant solutions to complex problems]
+# A short tagline that appears under your name
+
+[EMAIL: coolsnhilbajaj@gmail.com]
+[PHONE: +91 90449 94002]
+[LOCATION: 30/51 Chawal Mandi, Chawk, Kanpur – 208001, Uttar Pradesh, India]
+[LINKEDIN: linkedin.com/in/alexmorgan]
+[GITHUB: github.com/alexmorgan]
+[WEBSITE: alexmorgan.dev]
+
+[AVATAR: Asset/profile.jpg]
+# Path to your profile photo (put your image in the Asset folder)
+
+[END_SECTION]
+
+[SECTION: ABOUT ME]
+--------------------------------------------------------------------------------
+
+[ABOUT_TITLE: About Me]
+[ABOUT_SUMMARY: Passionate software engineer with 8+ years of experience building scalable web applications and leading high-performance teams. I specialize in full-stack development, cloud architecture, and creating intuitive user experiences.]
+[ABOUT_TEXT:
+I believe great software is built at the intersection of technical excellence and human empathy. My journey in tech started when I built my first website at 14, and I've been hooked ever since.
+
+After graduating from Stanford with a degree in Computer Science, I joined Microsoft where I helped build Azure's container orchestration platform. Later, I moved to a startup where I led a team of 12 engineers, shipping products used by millions.
+
+When I'm not coding, you'll find me contributing to open-source projects, mentoring aspiring developers, or exploring the mountains of Northern California.]
+
+[END_SECTION]
+
+[SECTION: SOFTKNOWNS (Software & Tools Known)]
+--------------------------------------------------------------------------------
+
+[SOFTWARE_ITEM: JavaScript/TypeScript | 95 | Expert]
+[SOFTWARE_ITEM: React & Next.js | 92 | Expert]
+[SOFTWARE_ITEM: Node.js & Express | 88 | Advanced]
+[SOFTWARE_ITEM: Python & Django | 85 | Advanced]
+[SOFTWARE_ITEM: AWS & Cloud Services | 82 | Advanced]
+[SOFTWARE_ITEM: Docker & Kubernetes | 80 | Advanced]
+[SOFTWARE_ITEM: PostgreSQL & MongoDB | 78 | Advanced]
+[SOFTWARE_ITEM: Git & CI/CD | 90 | Expert]
+# Format: NAME | PROFICIENCY (0-100) | LEVEL TEXT
+
+[END_SECTION]
+
+[SECTION: SKILLS]
+--------------------------------------------------------------------------------
+
+[SKILL_CATEGORY: Technical Skills]
+[SKILL: System Design & Architecture]
+[SKILL: API Design & Microservices]
+[SKILL: Database Optimization]
+[SKILL: Performance Engineering]
+[SKILL: Security Best Practices]
+[SKILL: Test-Driven Development]
+
+[SKILL_CATEGORY: Leadership]
+[SKILL: Team Management]
+[SKILL: Agile Methodologies]
+[SKILL: Technical Mentoring]
+[SKILL: Cross-functional Collaboration]
+
+[SKILL_CATEGORY: Soft Skills]
+[SKILL: Problem Solving]
+[SKILL: Communication]
+[SKILL: Time Management]
+[SKILL: Adaptability]
+
+[END_SECTION]
+
+[SECTION: EDUCATION]
+--------------------------------------------------------------------------------
+
+[EDUCATION_ITEM:
+[DEGREE: Master of Science in Computer Science]
+[SCHOOL: Stanford University]
+[YEAR: 2014 - 2016]
+[DESCRIPTION: Specialized in Distributed Systems. Thesis on fault-tolerant database replication. GPA: 3.9/4.0]
+]
+
+[EDUCATION_ITEM:
+[DEGREE: Bachelor of Science in Computer Science]
+[SCHOOL: UC Berkeley]
+[YEAR: 2010 - 2014]
+[DESCRIPTION: Dean's List all semesters. President of the ACM Student Chapter. Minor in Mathematics.]
+]
+
+[END_SECTION]
+
+[SECTION: EXPERIENCE]
+--------------------------------------------------------------------------------
+
+[EXPERIENCE_ITEM:
+[COMPANY: TechVision Inc.]
+[LOGO: Asset/techvision-logo.png]
+[ROLE: Senior Software Engineer / Tech Lead]
+[LOCATION: San Francisco, CA]
+[DURATION: Jan 2021 - Present]
+[DESCRIPTION: Leading a team of 12 engineers building next-gen cloud infrastructure products.]
+[HIGHLIGHTS:
+- Architected microservices platform serving 10M+ daily users
+- Reduced infrastructure costs by 40% through optimization
+- Led migration from monolith to microservices architecture
+- Mentored 8 junior developers, with 3 promoted under my guidance]
+]
+
+[EXPERIENCE_ITEM:
+[COMPANY: Microsoft]
+[LOGO: Asset/microsoft-logo.png]
+[ROLE: Software Engineer II]
+[LOCATION: Redmond, WA]
+[DURATION: June 2016 - Dec 2020]
+[DESCRIPTION: Core team member of Azure Container Services, focusing on orchestration and scaling.]
+[HIGHLIGHTS:
+- Built auto-scaling features reducing customer costs by 25%
+- Implemented security features protecting 50K+ containers
+- Received "Engineering Excellence" award in 2018
+- Published 3 technical blogs with 100K+ combined views]
+]
+
+[EXPERIENCE_ITEM:
+[COMPANY: StartupXYZ]
+[LOGO: Asset/startup-logo.png]
+[ROLE: Full Stack Developer]
+[LOCATION: Remote]
+[DURATION: May 2014 - May 2016]
+[DESCRIPTION: First engineering hire at a Y Combinator startup, building the product from scratch.]
+[HIGHLIGHTS:
+- Built MVP in 3 months, leading to $2M seed funding
+- Implemented payment processing handling $1M+ in transactions
+- Created real-time analytics dashboard used by all customers]
+]
+
+[END_SECTION]
+
+[SECTION: PORTFOLIO]
+--------------------------------------------------------------------------------
+
+[PORTFOLIO_TITLE: Featured Projects]
+
+[PORTFOLIO_ITEM:
+[TITLE: CloudSync Platform]
+[DESCRIPTION: A real-time collaboration platform for distributed teams with video conferencing, file sharing, and project management features.]
+[IMAGE: Asset/portfolio-cloudsync.jpg]
+[VIDEO: ]
+[LINK: https://cloudsync.example.com]
+[TAGS: React | Node.js | WebSocket | AWS]
+]
+
+[PORTFOLIO_ITEM:
+[TITLE: DataViz Analytics]
+[DESCRIPTION: Interactive data visualization dashboard with real-time charts, custom reports, and AI-powered insights for business intelligence.]
+[IMAGE: Asset/portfolio-dataviz.jpg]
+[VIDEO: ]
+[LINK: https://dataviz.example.com]
+[TAGS: D3.js | Python | PostgreSQL | Machine Learning]
+]
+
+[PORTFOLIO_ITEM:
+[TITLE: DevOps Toolkit]
+[DESCRIPTION: Open-source CLI tool for automating deployment pipelines, container management, and infrastructure provisioning.]
+[IMAGE: Asset/portfolio-devops.jpg]
+[VIDEO: Asset/portfolio-devops-demo.mp4]
+[LINK: https://github.com/alexmorgan/devops-toolkit]
+[TAGS: Go | Docker | Kubernetes | Terraform]
+]
+
+[PORTFOLIO_ITEM:
+[TITLE: AI Writing Assistant]
+[DESCRIPTION: Natural language processing application that helps writers improve clarity, grammar, and style using machine learning.]
+[IMAGE: Asset/portfolio-ai-writer.jpg]
+[VIDEO: ]
+[LINK: https://aiwriter.example.com]
+[TAGS: Python | TensorFlow | FastAPI | NLP]
+]
+
+[END_SECTION]
+
+[SECTION: COMPANY LOGOS]
+--------------------------------------------------------------------------------
+# These logos appear in the auto-sliding carousel
+# Put your logo images in the Asset folder
+
+[COMPANY_LOGO: Asset/logo-google.png]
+[COMPANY_LOGO: Asset/logo-microsoft.png]
+[COMPANY_LOGO: Asset/logo-amazon.png]
+[COMPANY_LOGO: Asset/logo-meta.png]
+[COMPANY_LOGO: Asset/logo-apple.png]
+[COMPANY_LOGO: Asset/logo-netflix.png]
+[COMPANY_LOGO: Asset/logo-spotify.png]
+[COMPANY_LOGO: Asset/logo-airbnb.png]
+
+[END_SECTION]
+
+[SECTION: FOOTER]
+--------------------------------------------------------------------------------
+
+[FOOTER_TEXT: Designed & Built with passion]
+[COPYRIGHT: 2024 Alex Morgan. All rights reserved.]
+
+[END_SECTION]

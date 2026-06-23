@@ -1,0 +1,387 @@
+================================================================================
+                     PORTFOLIO WEBSITE - USER GUIDE
+================================================================================
+
+Welcome! This guide will help you customize your portfolio website by editing
+the `source.txt` file. No coding knowledge required!
+
+================================================================================
+                         HOW IT WORKS
+================================================================================
+
+1. Open `source.txt` in any text editor (Notepad, TextEdit, VS Code, etc.)
+2. Find the tag you want to change
+3. Edit the value AFTER the colon
+4. Save the file
+5. Refresh your browser to see the changes
+
+That's it! The website automatically reads your `source.txt` file.
+
+================================================================================
+                         FILE STRUCTURE
+================================================================================
+
+Your project folder contains:
+
+    /
+    ├── Asset/           <-- Put your images and videos here
+    │   ├── avatar.jpg
+    │   ├── logo-company.png
+    │   └── portfolio-project.jpg
+    ├── index.html       <-- The main website file (don't edit this)
+    ├── source.txt       <-- Your content file (EDIT THIS!)
+    └── help.txt         <-- This guide
+
+================================================================================
+                         ADDING IMAGES & VIDEOS
+================================================================================
+
+STEP 1: Put your media files in the `Asset/` folder
+STEP 2: Reference them in source.txt as: Asset/filename.jpg
+
+SUPPORTED FORMATS:
+- Images: .jpg, .jpeg, .png, .gif, .webp
+- Videos: .mp4, .webm
+
+EXAMPLES:
+    [AVATAR: Asset/my-photo.jpg]
+    [IMAGE: Asset/project-screenshot.png]
+    [VIDEO: Asset/demo-video.mp4]
+
+TIP: Use descriptive filenames without spaces (use hyphens instead):
+    Good: my-portfolio-project.jpg
+    Bad:  My Portfolio Project.jpg
+
+================================================================================
+                    PRESET TAGS REFERENCE
+================================================================================
+
+------------------------------------------------------------------------------
+THEME SETTINGS
+------------------------------------------------------------------------------
+
+[THEME: modern]
+    Controls the overall look and feel
+    Options: modern, minimal, dark
+
+[COLOR_PRIMARY: #0f172a]
+    Main color for headers and important elements
+    Use any hex color code (search "color picker" online)
+
+[COLOR_SECONDARY: #3b82f6]
+    Secondary color for highlights and accents
+
+[COLOR_ACCENT: #06b6d4]
+    Accent color for special highlights
+
+[COLOR_BACKGROUND: #f8fafc]
+    Background color of the entire page
+
+[COLOR_TEXT: #1e293b]
+    Main text color
+
+[COLOR_TEXT_MUTED: #64748b]
+    Color for secondary/descriptive text
+
+[FONT_HEADING: Inter]
+    Font for headings
+    Options: Inter, Poppins, Playfair, Roboto, Montserrat
+
+[FONT_BODY: Inter]
+    Font for body text
+    Options: Inter, Poppins, Playfair, Roboto, Montserrat
+
+------------------------------------------------------------------------------
+PERSONAL INFO
+------------------------------------------------------------------------------
+
+[NAME: Your Full Name]
+    Your name displayed at the top
+
+[TITLE: Your Job Title]
+    Your professional title (e.g., "Software Engineer")
+
+[TAGLINE: Your catchy phrase here]
+    A short tagline that appears under your title
+
+[EMAIL: your.email@example.com]
+    Your email address
+
+[PHONE: +1 (555) 123-4567]
+    Your phone number (optional)
+
+[LOCATION: City, Country]
+    Your location (optional)
+
+[LINKEDIN: linkedin.com/in/yourprofile]
+    Your LinkedIn profile URL (without https://)
+
+[GITHUB: github.com/yourusername]
+    Your GitHub profile URL (without https://)
+
+[WEBSITE: yourwebsite.com]
+    Your personal website (without https://)
+
+[AVATAR: Asset/your-photo.jpg]
+    Path to your profile photo
+
+------------------------------------------------------------------------------
+ABOUT ME SECTION
+------------------------------------------------------------------------------
+
+[ABOUT_TITLE: About Me]
+    The heading for your about section
+
+[ABOUT_SUMMARY: A 1-2 sentence professional summary]
+    Brief introduction at the top of the about section
+
+[ABOUT_TEXT:
+Your full about me text here.
+You can write multiple paragraphs.
+Each paragraph will be displayed separately.
+]
+
+------------------------------------------------------------------------------
+SOFTWARE & TOOLS (Tech Stack)
+------------------------------------------------------------------------------
+
+[SOFTWARE_ITEM: Tool Name | Proficiency | Level]
+    - Tool Name: Name of the software/tool
+    - Proficiency: Number from 0-100 (shown as a progress bar)
+    - Level: Text label (e.g., "Expert", "Advanced", "Intermediate")
+
+EXAMPLES:
+    [SOFTWARE_ITEM: JavaScript | 95 | Expert]
+    [SOFTWARE_ITEM: React | 88 | Advanced]
+    [SOFTWARE_ITEM: Python | 75 | Intermediate]
+
+------------------------------------------------------------------------------
+SKILLS SECTION
+------------------------------------------------------------------------------
+
+[SKILL_CATEGORY: Category Name]
+    Creates a new skill category group
+
+[SKILL: Skill Name]
+    Adds a skill to the current category
+
+EXAMPLE:
+    [SKILL_CATEGORY: Technical Skills]
+    [SKILL: JavaScript]
+    [SKILL: React]
+    [SKILL: Node.js]
+
+    [SKILL_CATEGORY: Soft Skills]
+    [SKILL: Communication]
+    [SKILL: Leadership]
+
+------------------------------------------------------------------------------
+EDUCATION SECTION
+------------------------------------------------------------------------------
+
+Add education items using this format:
+
+[EDUCATION_ITEM:
+[DEGREE: Your Degree Name]
+[SCHOOL: University/Institution Name]
+[YEAR: 2014 - 2018]
+[DESCRIPTION: Optional description, honors, GPA, etc.]
+]
+
+EXAMPLE:
+    [EDUCATION_ITEM:
+    [DEGREE: Bachelor of Science in Computer Science]
+    [SCHOOL: Stanford University]
+    [YEAR: 2014 - 2018]
+    [DESCRIPTION: Graduated with honors. GPA: 3.9/4.0]
+    ]
+
+------------------------------------------------------------------------------
+EXPERIENCE SECTION
+------------------------------------------------------------------------------
+
+Add work experiences using this format:
+
+[EXPERIENCE_ITEM:
+[COMPANY: Company Name]
+[LOGO: Asset/company-logo.png]
+[ROLE: Your Job Title]
+[LOCATION: City, State]
+[DURATION: Jan 2020 - Present]
+[DESCRIPTION: Brief description of your role]
+[HIGHLIGHTS:
+- Your first achievement
+- Your second achievement
+- Your third achievement
+]
+]
+
+TIP: Add bullet points with a hyphen and space (- )
+     Each highlight should start on a new line
+
+------------------------------------------------------------------------------
+PORTFOLIO SECTION
+------------------------------------------------------------------------------
+
+[PORTFOLIO_TITLE: Your Section Title]
+    The heading for your portfolio section
+
+Add portfolio items using this format:
+
+[PORTFOLIO_ITEM:
+[TITLE: Project Name]
+[DESCRIPTION: A brief description of the project and what it does]
+[IMAGE: Asset/project-screenshot.jpg]
+[VIDEO: Asset/demo-video.mp4]
+[LINK: https://project-url.com]
+[TAGS: React | Node.js | MongoDB]
+]
+
+NOTES:
+- IMAGE and VIDEO are optional - use one or both
+- VIDEO: Leave empty if you only want an image
+- IMAGE: Leave empty if you only want a video
+- TAGS: Separate each tag with a pipe character (|)
+
+------------------------------------------------------------------------------
+COMPANY LOGOS CAROUSEL
+------------------------------------------------------------------------------
+
+Add company logos that will scroll across your page:
+
+[COMPANY_LOGO: Asset/logo-google.png]
+[COMPANY_LOGO: Asset/logo-microsoft.png]
+[COMPANY_LOGO: Asset/logo-amazon.png]
+
+These logos will automatically slide infinitely across the page.
+Put all your logo images in the Asset folder.
+
+TIP: Use PNG files with transparent backgrounds for best results
+     Recommended size: 150-200px wide
+
+------------------------------------------------------------------------------
+FOOTER SECTION
+------------------------------------------------------------------------------
+
+[FOOTER_TEXT: Custom footer message]
+    Text displayed above the copyright
+
+[COPYRIGHT: 2024 Your Name. All rights reserved.]
+    Copyright notice at the bottom
+
+================================================================================
+                         QUICK START EXAMPLES
+================================================================================
+
+--- Example: Changing Your Name ---
+Find this line in source.txt:
+    [NAME: Alex Morgan]
+
+Change it to:
+    [NAME: Your Real Name]
+
+Save and refresh!
+
+--- Example: Changing Primary Color ---
+Find this line:
+    [COLOR_PRIMARY: #0f172a]
+
+Change it to (for a blue theme):
+    [COLOR_PRIMARY: #2563eb]
+
+Save and refresh!
+
+--- Example: Adding a New Skill ---
+Add this after your existing skills:
+    [SKILL: Machine Learning]
+
+Save and refresh!
+
+================================================================================
+                         COMMON QUESTIONS
+================================================================================
+
+Q: My image isn't showing. What's wrong?
+A: 1. Make sure the image is in the Asset folder
+   2. Check the filename matches exactly (including file extension)
+   3. Make sure there are no extra spaces in the tag
+
+Q: Can I have videos in my portfolio?
+A: Yes! Use [VIDEO: Asset/your-video.mp4] in a portfolio item.
+   Videos will show a play button overlay on the thumbnail image.
+
+Q: Can I leave a tag empty?
+A: Yes. If you don't want to show something, leave the value empty:
+   [PHONE: ]
+
+Q: How do I add more experiences/skills?
+A: Just add more lines following the same format. The parser handles
+   any number of items.
+
+Q: Can I change the order of sections?
+A: Not through source.txt. The section order is fixed in the template.
+   Contact a developer if you need to reorder sections.
+
+================================================================================
+                         DEPLOYING TO GITHUB PAGES
+================================================================================
+
+1. Create a GitHub repository
+2. Upload all files (index.html, source.txt, help.txt, Asset folder)
+3. Go to repository Settings > Pages
+4. Select "main" branch as source
+5. Your site will be live at: https://yourusername.github.io/repository-name
+
+TIP: Always test your changes locally before deploying!
+
+================================================================================
+                         NEED HELP?
+================================================================================
+
+If something isn't working:
+
+1. Check that source.txt is in the same folder as index.html
+2. Check for typos in tag names (they are case-sensitive)
+3. Make sure all images are in the Asset folder
+4. Try refreshing the page with Ctrl+F5 (hard refresh)
+
+================================================================================
+                         TAG QUICK REFERENCE
+================================================================================
+
+THEME & COLORS:
+[THEME] [COLOR_PRIMARY] [COLOR_SECONDARY] [COLOR_ACCENT]
+[COLOR_BACKGROUND] [COLOR_TEXT] [COLOR_TEXT_MUTED]
+[FONT_HEADING] [FONT_BODY]
+
+PERSONAL:
+[NAME] [TITLE] [TAGLINE] [EMAIL] [PHONE]
+[LOCATION] [LINKEDIN] [GITHUB] [WEBSITE] [AVATAR]
+
+ABOUT:
+[ABOUT_TITLE] [ABOUT_SUMMARY] [ABOUT_TEXT]
+
+SOFTWARE:
+[SOFTWARE_ITEM: Name | Proficiency | Level]
+
+SKILLS:
+[SKILL_CATEGORY: Category] [SKILL: Skill Name]
+
+EDUCATION:
+[EDUCATION_ITEM: ... [DEGREE] [SCHOOL] [YEAR] [DESCRIPTION] ]
+
+EXPERIENCE:
+[EXPERIENCE_ITEM: ... [COMPANY] [LOGO] [ROLE] [LOCATION]
+[DURATION] [DESCRIPTION] [HIGHLIGHTS: ...] ]
+
+PORTFOLIO:
+[PORTFOLIO_TITLE] [PORTFOLIO_ITEM: ... [TITLE] [DESCRIPTION]
+[IMAGE] [VIDEO] [LINK] [TAGS] ]
+
+LOGOS:
+[COMPANY_LOGO: Asset/path.png]
+
+FOOTER:
+[FOOTER_TEXT] [COPYRIGHT]
+
+================================================================================
